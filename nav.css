@@ -1,0 +1,50 @@
+/*
+Color Palette
+background color: #200439
+primary: #512C73
+secondary: #361356
+tertiary: #6F4D8F
+accent: #9277AC
+vegasGold: #c5b358
+white: #fff
+black: #000  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+
+.logo {
+    font-size: 2.2rem;
+    margin: 0.75rem 2.5rem;
+    color: #c5b358;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: #361356;
+}

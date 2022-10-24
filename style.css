@@ -9,3 +9,20 @@ vegasGold: #c5b358
 white: #fff
 black: #000  
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html {
+    /* If we add any padding or border onto an element, it does not affect the width of the element */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #200439;
+    color: #fff;
+}
