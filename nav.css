@@ -91,7 +91,7 @@ black: #000
         text-align: center;
     }
     
-    .navbar-links active {
+    .navbar-links.active {
         display: flex;
     }
 }
