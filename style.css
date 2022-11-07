@@ -47,6 +47,37 @@ body {
 /* (150% zoom - Note: if th ezoom is too large, it will go outside of the view port) */
 }
 
+.projectsHeader { margin: 1.5rem 3rem; text-align: center; padding: 0.5rem; letter-spacing: 4px;
+}
+
+.projectCard { background-color: #fff; color: #200439; margin: 4rem 3rem; padding: 0.5rem 2rem; text-align: center; border: 1px solid #9277AC; border-radius: 1rem; box-shadow: 10px 10px 5px #000;
+}
+
+.projectCard img { width: 100%; height: auto; border-radius: 3rem; margin: 1rem 0;
+}
+
+.projectCard h2 { margin: 0.5rem 1rem 1.5rem 1rem; font-weight: 600;
+}
+
+.projectCard p { font-size: 1rem; font-weight: 400;
+}
+
+.projectIcons { display: flex; justify-content: space-evenly; font-size: 1.2rem; margin-top: 2rem;
+}
+
+.projectIcons p { margin: 0 0 1rem 0; font-size: 0.8rem;
+}
+
+.fa-github { font-size: 2.2rem; padding: 1.5rem;
+}
+
+.fa-file { font-size: 2.2rem; padding: 1.5rem;
+}
+
+
+
+
+
 @media (min-width: 800px) {
     .hero { flex-direction: row; justify-content: space-evenly; align-items: center; height: 90vh;
     }
@@ -58,5 +89,12 @@ body {
     }
     
     .button { font-size: 1.1rem;
+    }
+    
+    .projectGallery { display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap;
+    }
+    
+    .projectCard {
+        max-width: 20%
     }
 }
