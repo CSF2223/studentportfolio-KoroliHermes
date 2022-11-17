@@ -74,6 +74,23 @@ body {
 .fa-file { font-size: 2.2rem; padding: 1.5rem;
 }
 
+footer { text-align: center; color: #c5b35; margin: 10rem 0; border-top: 1px solid #9277AC;
+}
+
+.copyright { margin: 1rem; padding: 1rem; font-size: 1rem; color: #c5b358; display: block;
+}
+
+.filler { display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 0; height: 80vh; 
+}
+
+
+
+
+
+
+
+
+
 
 
 

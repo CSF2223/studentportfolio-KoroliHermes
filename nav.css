@@ -67,6 +67,22 @@ black: #000
     border-radius: 10px;
 }
 
+.bottomnav { margin: 0; padding: 0; display: flex; justify-content: center; align-items: center;
+}
+
+.bottomnav li { list-style: none; font-size: 0.9rem; padding: 0 0.5rem;
+}
+
+.bottomnav li a { text-decoration: none; color: #c5b358; display: block;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 800px) {
     .toggle-button {
         display: flex;
